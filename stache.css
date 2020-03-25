@@ -12,12 +12,20 @@ body {
     height: max-content;
     margin: 20% 10% 10%;
   }
-  
+  .blogg {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   header {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
     padding: 25px;
     color: white;
     border: 25px black;
